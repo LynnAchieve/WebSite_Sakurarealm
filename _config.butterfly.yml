@@ -890,6 +890,7 @@ inject:
   head:
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
+  - <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     # - <script src="xxxx"></script>
 
 # CDN
