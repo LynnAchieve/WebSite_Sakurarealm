@@ -5,8 +5,8 @@
 menu:
    主页: / || fas fa-home
    功能: / || fas fa-list
-     网页地图: / || fas fa-solid fa-map
-     引导手册: https://www.yuque.com/sakurarealm/yindao || fas fa-solid fa-book
+      网页地图: / || fas fa-solid fa-map
+      引导手册: https://www.yuque.com/sakurarealm/yindao || fas fa-solid fa-book
    QQ频道: / || fas fa-brands fa-qq
    语雀wiki: https://www.yuque.com/sakurarealm || fas fa-brands fa-wikipedia-w
    用户中心: https://oasis-auth.sakura-realm.ink/ || fas fa-solid fa-user
