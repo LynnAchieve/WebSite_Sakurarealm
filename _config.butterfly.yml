@@ -675,10 +675,10 @@ aside:
     enable: true
     description:
     button:
-      enable: false
-      icon: fab fa-github
-      text: Follow Me
-      link: https://github.com/xxxxxx
+      enable: true
+      icon: fas fa-solid fa-download
+      text: 客户端下载
+      link: /
   card_announcement:
     enable: false
     content: This is my Blog
