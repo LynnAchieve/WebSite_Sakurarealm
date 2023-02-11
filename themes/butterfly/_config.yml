@@ -431,7 +431,7 @@ messenger:
 footer:
   owner:
     enable: true
-    since: 2023
+    since: 2022
   custom_text: <a href="https://blog.lynn6.cn"><img class="icp-icon" src="icp图片"><span>制作&搭建 ：@林恩</span></a>
   copyright: false # Copyright of theme and framework
 
