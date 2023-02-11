@@ -644,8 +644,9 @@ subtitle:
   source: false
   # 如果關閉打字效果，subtitle 只會顯示 sub 的第一行文字
   sub:
+  - 充满无限可能的Minecraft虚拟世界  
   - 沙盒 | 生存 | 建设 | 冒险 | 旅行 | 生活 | 创作
-  - 充满无限可能的Minecraft虚拟世界
+
 
 
 # Loading Animation (加載動畫)
