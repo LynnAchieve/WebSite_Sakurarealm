@@ -438,7 +438,7 @@ footer:
   owner:
     enable: true
     since: 2022
-  custom_text: <a href="https://blog.lynn6.cn"><img class="fas fa-solid fa-user" src="fas fa-solid fa-user"><span>制作&搭建 ：@林恩</span></a>
+  custom_text: <a href="https://blog.lynn6.cn"><span>制作&搭建 ：@林恩</span></a>
   copyright: false # Copyright of theme and framework
 
 
