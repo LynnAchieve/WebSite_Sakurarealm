@@ -5,11 +5,11 @@
 menu:
    主页: / || fas fa-home
    网页地图: / || fas fa-solid fa-map
-   引导手册: / || fas fa-solid fa-book
+   引导手册: https://www.yuque.com/sakurarealm/yindao || fas fa-solid fa-book
    游戏下载: / || fas fa-solid fa-download
    QQ频道: / || fas fa-brands fa-qq
-   语雀wiki: https://www.yuque.com/ || fas fa-brands fa-wikipedia-w
-   用户中心: https://www.yuque.com/ || fas fa-solid fa-user
+   语雀wiki: https://www.yuque.com/sakurarealm || fas fa-brands fa-wikipedia-w
+   用户中心: / || fas fa-solid fa-user
   # Archives: /archives/ || fas fa-archive
   # Tags: /tags/ || fas fa-tags
   # Categories: /categories/ || fas fa-folder-open
