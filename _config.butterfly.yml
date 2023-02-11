@@ -4,7 +4,7 @@
 
 menu:
    主页: / || fas fa-home
-   功能|| fas fa-list
+   功能|| fas fa-list:
       网页地图: / || fas fa-solid fa-map
       引导手册: https://www.yuque.com/sakurarealm/yindao || fas fa-solid fa-book
    QQ频道: / || fas fa-brands fa-qq
