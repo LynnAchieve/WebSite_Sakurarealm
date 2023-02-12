@@ -839,7 +839,7 @@ pjax:
 
 # Inject the css and script (aplayer/meting)
 aplayerInject:
-  enable: false
+  enable: true
   per_page: true
 
 # Snackbar (Toast Notification 彈窗)
@@ -910,6 +910,7 @@ inject:
   - <canvas id="universe"></canvas>
   - <script defer src="/js/universe.js"></script>
   - <script src="/js/sun_moon.js" async></script>
+  - <div class="aplayer no-destroy" data-id="60198" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="true"> </div>
   
     # - <script src="xxxx"></script>
 
@@ -973,9 +974,9 @@ CDN:
     # fontawesomeV6:
     # flickr_justified_gallery_js:
     # flickr_justified_gallery_css:
-    # aplayer_css:
-    # aplayer_js:
-    # meting_js:
+    # aplayer_css: https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/aplayer/1.10.1/APlayer.min.css
+    # aplayer_js: https://lf26-cdn-tos.bytecdntp.com/cdn/expire-1-M/aplayer/1.10.1/APlayer.min.js
+    # meting_js: https://pan.anzhiy.cn/d/anzhiyu/js/Meting2.min.js
     # prismjs_js:
     # prismjs_lineNumber_js:
     # prismjs_autoloader:

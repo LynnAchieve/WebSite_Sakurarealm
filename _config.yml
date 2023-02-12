@@ -106,3 +106,8 @@ deploy:
 
 butterfly_article_double_row:
   enable: false
+
+aplayer:
+  meting: true
+  asset_inject: false
+  
