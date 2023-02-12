@@ -10,7 +10,7 @@ menu:
    链接|| fas fa-link:
       QQ频道: https://sharelg6.ml/s2bfdB || fas fa-brands fa-qq
       语雀wiki: https://www.yuque.com/sakurarealm || fas fa-brands fa-wikipedia-w
-   立即加入: https://oasis-auth.sakura-realm.ink/ || fa-solid fa-right-to-bracket         
+   加入绘境: https://oasis-auth.sakura-realm.ink/ || fa-solid fa-right-to-bracket         
    用户中心: https://oasis-auth.sakura-realm.ink/ || fas fa-solid fa-user
 
   # Archives: /archives/ || fas fa-archive
@@ -923,7 +923,23 @@ CDN:
   index_card_style: slidecard # slidecard | multicard
 
 
-
+# hexo-butterfly-swiper
+# see https://akilar.top/posts/8e1264d1/
+swiper:
+  enable: true # 开关
+  priority: 5 #过滤器优先权
+  enable_page: all # 应用页面
+  timemode: date #date/updated
+  layout: # 挂载容器类型
+    type: id
+    name: recent-posts
+    index: 0
+  default_descr: 再怎么看我也不知道怎么描述它的啦！
+  swiper_css: https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiper.min.css #swiper css依赖
+  swiper_js: https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiper.min.js #swiper js依赖
+  custom_css: https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiperstyle.css # 适配主题样式补丁
+  custom_js: https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiper_init.js # swiper初始化方法
+  
   option:
     # main_css:
     # main:
