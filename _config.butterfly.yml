@@ -907,6 +907,7 @@ inject:
   - <canvas id="universe"></canvas>
   - <script defer src="/js/universe.js"></script>
   - <script src="/js/sun_moon.js" async></script>
+  - <script async src="https://npm.elemecdn.com/tzy-blog/lib/js/other/sakura.js"></script>
 
     # - <script src="xxxx"></script>
 
