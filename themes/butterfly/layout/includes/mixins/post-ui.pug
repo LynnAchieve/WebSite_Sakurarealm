@@ -21,22 +21,22 @@ mixin postUI(posts)
             .article-meta-wrap
               if (is_home() && (article.top || article.sticky > 0))
                 span.article-meta
-                  //- i.fas.fa-thumbtack.sticky
-                  svg.meta_icon(style="width:16px;height:16px;position:relative;top:3px").post-ui-icon
+                  i.fas.fa-thumbtack.sticky
+                  //- svg.meta_icon(style="width:16px;height:16px;position:relative;top:3px").post-ui-icon
                     use(xlink:href='#icon-tuding')
                   span.sticky= _p('sticky')
                   span.article-meta-separator  | 
               if (theme.post_meta.page.date_type)
                 span.post-meta-date
                   if (theme.post_meta.page.date_type === 'both')
-                    //- i.far.fa-calendar-alt
-                    svg.meta_icon(style="width:21px;height:21px;position:relative;top:6px").post-ui-icon
+                    i.far.fa-calendar-alt
+                    //-svg.meta_icon(style="width:21px;height:21px;position:relative;top:6px").post-ui-icon
                       use(xlink:href='#icon-rili')
                     span.article-meta-label=_p('post.created')
                     time.post-meta-date-created(datetime=date_xml(article.date) title=_p('post.created') + ' ' + full_date(article.date))=date(article.date, config.date_format)
                     span.article-meta-separator  | 
-                    //- i.fas.fa-history
-                    svg.meta_icon(style="width:13px;height:13px;position:relative;top:2px").post-ui-icon
+                    i.fas.fa-history
+                    //- svg.meta_icon(style="width:13px;height:13px;position:relative;top:2px").post-ui-icon
                       use(xlink:href='#icon-gengxin1')                    
                     span.article-meta-label=_p('post.updated') + " "
                     time.post-meta-date-updated(datetime=date_xml(article.updated) title=_p('post.updated') + ' ' + full_date(article.updated))=date(article.updated, config.date_format)
@@ -51,8 +51,8 @@ mixin postUI(posts)
               if (theme.post_meta.page.categories && article.categories.data.length > 0)
                 span.article-meta
                   span.article-meta-separator  | 
-                  //- i.fas.fa-inbox
-                  svg.meta_icon(style="width:12px;height:12px;position:relative;top:1px").post-ui-icon
+                  i.fas.fa-inbox
+                  //- svg.meta_icon(style="width:12px;height:12px;position:relative;top:1px").post-ui-icon
                     use(xlink:href='#icon-fenlei')
                   each item, index in article.categories.data
                     a(href=url_for(item.path)).article-meta__categories #[=item.name]
@@ -61,8 +61,8 @@ mixin postUI(posts)
               if (theme.post_meta.page.tags && article.tags.data.length > 0)
                 span.article-meta.tags
                   span.article-meta-separator  | 
-                  //- i.fas.fa-tag
-                  svg.meta_icon(style="width:13px;height:13px;position:relative;top:2px").post-ui-icon
+                  i.fas.fa-tag
+                  //- svg.meta_icon(style="width:13px;height:13px;position:relative;top:2px").post-ui-icon
                     use(xlink:href='#icon-biaoqian')
                   each item, index in article.tags.data
                     a(href=url_for(item.path)).article-meta__tags #[=item.name]
@@ -73,8 +73,8 @@ mixin postUI(posts)
                 - needLoadCountJs = true
                 span.article-meta
                   span.article-meta-separator  | 
-                  //- i.fas.fa-comments
-                  svg.meta_icon(style="width:13px;height:13px;position:relative;top:2px").post-ui-icon
+                  i.fas.fa-comments
+                  //- svg.meta_icon(style="width:13px;height:13px;position:relative;top:2px").post-ui-icon
                     use(xlink:href='#icon-pinglun1')
                   if block
                     block
