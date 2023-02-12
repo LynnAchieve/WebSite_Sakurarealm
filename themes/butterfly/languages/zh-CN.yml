@@ -83,6 +83,7 @@ aside:
     link: 链接
     code: 代码
   card_toc: 目录
+  card_friend_link: 通讯录
 
 date_suffix:
   just: 刚刚

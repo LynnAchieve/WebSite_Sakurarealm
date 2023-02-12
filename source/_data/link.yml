@@ -1,0 +1,7 @@
+- class_name: 友情链接
+  class_desc: 描述文字
+  link_list:
+    - name: Lynn's Blog
+      link: https://blog.lynn6.cn
+      avatar: https://s-bj-1866-blog.oss.dogecdn.com/pic/fb2c42d74892b1e208c0be7af2be20b31627004540489.jpeg
+      descr: 林恩的个人博客
