@@ -1,3 +1,5 @@
+@import "//at.alicdn.com/t/font_2264842_b004iy0kk2b.css";
+
 :root {
     --trans-light: rgba(255, 255, 255, 0.88);
     --trans-dark: rgba(25, 25, 25, 0.88);
@@ -80,4 +82,8 @@
 #pagination {
     width: 100%;
     margin: auto;
+  }
+  .loading-img {
+    background: url(https://s1.ax1x.com/2023/02/11/pS4YE9g.png) no-repeat center center;
+    background-size: cover;
   }
