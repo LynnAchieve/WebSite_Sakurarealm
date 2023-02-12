@@ -24,12 +24,37 @@ collections:
       - {label: "标签", name: "tags", widget: "list"}
       - {label: "分类", name: "categories", widget: "list"}
       - {label: "目录", name: "toc", widget: "boolean", default: true}
-      - {label: "正文", name: "body", widget: "markdown"}    
-  - name: "Friend" # Used in routes, e.g., /admin/collections/blog
-    label: "友情链接" # Used in the UI
-    folder: "source/_data" # The path to the folder where the documents are stored
-    create: false # Allow users to create new documents in this collection
-    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    fields: # The fields for each document, usually in front matter
-      - {label: "内容", name: "body", widget: "string"}          
+      - {label: "正文", name: "body", widget: "markdown"}           
+  - name: 'Friend'
+    label: '友情链接'
+    delete: false # Prevent users from deleting documents in this collection
+    editor:
+      preview: false
+    files:
+      - name: '友情链接'
+        label: 'Site Settings'
+        file: 'source/_data/link.yml'
+        description: '友情链接'
+        fields:
+          - { label: '分类名称', name: 'class_name', widget: 'string' }
+          - label: 'Post Settings'
+            name: posts
+            widget: 'object'
+            fields:
+              - {
+                  label: 'Number of posts on frontpage',
+                  name: front_limit,
+                  widget: number,
+                  min: 1,
+                  max: 10,
+                }
+              - { label: 'Default Author', name: author, widget: string }
+              - {
+                  label: 'Default Thumbnail',
+                  name: thumb,
+                  widget: image,
+                  class: 'thumb',
+                  required: false,
+                }
+
 
