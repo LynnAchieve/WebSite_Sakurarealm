@@ -655,9 +655,9 @@ preloader:
   # source
   # 1. fullpage-loading
   # 2. pace (progress bar)
-  source: 1
+  source: 2
   # pace theme (see https://codebyzach.github.io/pace/)
-  pace_css_url:
+  pace_css_url: https://gcore.jsdelivr.net/gh/CodeByZach/pace@master/templates/pace-theme-material.tmpl.css
 
 # aside (側邊欄)
 # --------------------------------------
@@ -917,7 +917,7 @@ CDN:
   custom_format:
   # 主页卡片样式
   # Docs: https://akilar.top/posts/d6b69c49/
-  index_card_style: multicard # slidecard | multicard
+  index_card_style: slidecard # slidecard | multicard
 
 
 
