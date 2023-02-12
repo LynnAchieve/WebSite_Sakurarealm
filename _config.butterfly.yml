@@ -530,8 +530,15 @@ tag_ui: # 留空或 index
 # Website Background (設置網站背景)
 # can set it to color or image (可設置圖片 或者 顔色)
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
-background: url(https://s1.ax1x.com/2023/02/11/pS4Yejs.png)
 
+# Website Background (設置網站背景)
+# can set it to color or image (可設置圖片 或者 顔色)
+# The formal of image: url(http://xxxxxx.com/xxx.jpg)
+background:
+  default:  url(https://s1.ax1x.com/2023/02/11/pS4Yejs.png) #【必选】默认背景
+  darkmode: url(https://s1.ax1x.com/2023/02/12/pS5LV91.jpg) #【可选】PC端夜间模式背景
+  mobileday: #【可选】移动端日间默认背景
+  mobilenight: #【可选】移动端夜间模式背景
 # Footer Background
 footer_bg: false
 

@@ -1,0 +1,15 @@
+#web_bg {
+    /* 背景图像的地址（url括号里）  */
+    background: url(https://s1.ax1x.com/2023/02/12/pS5LV91.jpg);
+    background: url(https://s1.ax1x.com/2023/02/12/pS5LAhR.jpg);
+    background: url(https://s1.ax1x.com/2023/02/12/pS5LunO.png);
+    background: url(https://s1.ax1x.com/2023/02/12/pS5LKBD.png);
+    background: url(https://s1.ax1x.com/2023/02/12/pS5LlAH.png);
+    background: url(https://s1.ax1x.com/2023/02/12/pS5LZ1x.jpg);
+    background: url(https://s1.ax1x.com/2023/02/11/pS4Yejs.png);
+
+    /* 背景图像不重复 */
+    background-repeat: no-repeat;
+    /* 背景图像大小 */
+    background-size: cover;
+  }
