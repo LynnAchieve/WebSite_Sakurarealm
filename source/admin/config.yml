@@ -31,8 +31,8 @@ collections:
     editor:
       preview: false
     files:
-      - name: '友情链接'
-        label: 'Site Settings'
+      - name: 'friend'
+        label: '该功能仍在测试！！！'
         file: 'source/_data/link.yml'
         description: '友情链接'
         fields:
