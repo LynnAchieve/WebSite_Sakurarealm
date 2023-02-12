@@ -20,6 +20,7 @@ collections:
       - {label: "标题", name: "title", widget: "string"}
       - {label: "封面图片", name: "cover", widget: "string"}      
       - {label: "描述", name: "description", widget: "string"}
+      - {label: "轮播图顺序(填数字)", name: "swiper_index", widget: "string"}      
 #      - {label: "缩写"ABBRLINK, name: "abbrlink", widget: "string"}
       - {label: "标签", name: "tags", widget: "list"}
       - {label: "分类", name: "categories", widget: "list"}
