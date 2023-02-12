@@ -893,9 +893,13 @@ css_prefix: true
 inject:
   head:
    - <link rel="stylesheet" href="/css/custom.css?1">
+   - <link rel="stylesheet" href="/css/universe.css">
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
   - <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  - <canvas id="universe"></canvas>
+  - <script defer src="/js/universe.js"></script>
+
     # - <script src="xxxx"></script>
 
 # CDN
