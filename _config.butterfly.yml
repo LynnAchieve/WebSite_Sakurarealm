@@ -906,6 +906,7 @@ inject:
   - <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   - <canvas id="universe"></canvas>
   - <script defer src="/js/universe.js"></script>
+  - <script src="/js/sun_moon.js" async></script>
 
     # - <script src="xxxx"></script>
 
