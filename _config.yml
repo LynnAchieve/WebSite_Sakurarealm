@@ -103,3 +103,6 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+butterfly_article_double_row:
+  enable: true
