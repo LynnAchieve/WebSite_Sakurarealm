@@ -23,7 +23,7 @@ menu:
   # About: /about/ || fas fa-heart
 
 nav:
-  logo: https://s1.ax1x.com/2023/02/11/pS4YE9g.png # image
+  logo: /imagecdn/logo2.png # image
   display_title: true
   fixed: true # fixed navigation bar
 
@@ -90,11 +90,11 @@ katex:
 # --------------------------------------
 
 # Favicon（網站圖標）
-favicon: https://s1.ax1x.com/2023/02/11/pS4YV3Q.png
+favicon: /imagecdn/logo.png
 
 # Avatar (頭像)
 avatar:
-  img: https://s1.ax1x.com/2023/02/11/pS4YE9g.png
+  img: /imagecdn/logo2.png
   effect: false
 
 # Disable all banner image
@@ -535,8 +535,8 @@ tag_ui: # 留空或 index
 # can set it to color or image (可設置圖片 或者 顔色)
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
 background:
-  default:  url(https://s1.ax1x.com/2023/02/11/pS4Yejs.png) #【必选】默认背景
-  darkmode: url(https://s1.ax1x.com/2023/02/12/pS5LV91.jpg) #【可选】PC端夜间模式背景
+  default:  url(/imagecdn/map.png) #【必选】默认背景
+  darkmode: url(/imagecdn/image04.jpg) #【可选】PC端夜间模式背景
   mobileday: #【可选】移动端日间默认背景
   mobilenight: #【可选】移动端夜间模式背景
 # Footer Background
