@@ -915,7 +915,9 @@ CDN:
   # Custom format
   # For example: https://cdn.staticfile.org/${cdnjs_name}/${version}/${min_cdnjs_file}
   custom_format:
-
+  # 主页卡片样式
+  # Docs: https://akilar.top/posts/d6b69c49/
+  index_card_style: multicard # slidecard | multicard
 
 
 
