@@ -707,7 +707,7 @@ aside:
     sort_order: # Don't modify the setting unless you know how it works
   card_webinfo:
     enable: true
-    post_count: true
+    post_count: false
     last_push_date: true
     sort_order: # Don't modify the setting unless you know how it works
 
