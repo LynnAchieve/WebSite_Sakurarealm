@@ -7,9 +7,12 @@ menu:
    功能|| fas fa-list:
       网页地图: / || fas fa-solid fa-map
       引导手册: https://www.yuque.com/sakurarealm/yindao || fas fa-solid fa-book
-   QQ频道: https://sharelg6.ml/s2bfdB || fas fa-brands fa-qq
-   语雀wiki: https://www.yuque.com/sakurarealm || fas fa-brands fa-wikipedia-w
+   链接|| fas fa-link:
+      QQ频道: https://sharelg6.ml/s2bfdB || fas fa-brands fa-qq
+      语雀wiki: https://www.yuque.com/sakurarealm || fas fa-brands fa-wikipedia-w
+   立即加入: https://oasis-auth.sakura-realm.ink/ || fa-solid fa-right-to-bracket         
    用户中心: https://oasis-auth.sakura-realm.ink/ || fas fa-solid fa-user
+
   # Archives: /archives/ || fas fa-archive
   # Tags: /tags/ || fas fa-tags
   # Categories: /categories/ || fas fa-folder-open
