@@ -1,8 +1,8 @@
 @import "//at.alicdn.com/t/font_2264842_b004iy0kk2b.css";
 
 :root {
-    --trans-light: rgba(255, 255, 255, 0.88);
-    --trans-dark: rgba(25, 25, 25, 0.88);
+    --trans-light: rgba(255, 255, 255, 0.70);
+    --trans-dark: rgba(25, 25, 25, 0.70);
     --border-style: 1px solid rgb(169, 169, 169);
     --backdrop-filter: blur(5px) saturate(150%);
   }
