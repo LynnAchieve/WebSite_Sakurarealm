@@ -889,6 +889,7 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
+   - <link rel="stylesheet" href="/css/custom.css?1">
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
   - <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
@@ -942,7 +943,7 @@ categoryBar:
     - descr: 杂谈教程
       cover: https://assets.akilar.top/image/cover6.webp
   custom_css: https://npm.elemecdn.com/hexo-butterfly-categories-card@1.0.0/lib/categorybar.css
-  
+
   option:
     # main_css:
     # main:
