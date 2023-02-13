@@ -7,4 +7,4 @@ description: 世界的旅行者
 toc: true
 ---
 
-[![Image.png](/imagecdn/journey.png)](https://www.yuque.com/sakurarealm/zd86fx/fl3k1i)
+[![Image.png](/imagecdn/journey.png)](https://www.yuque.com/sakurarealm/zd86fx/rd2zi2)
