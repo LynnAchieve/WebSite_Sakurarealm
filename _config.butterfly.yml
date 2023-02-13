@@ -419,7 +419,7 @@ daovoice:
 # gitter
 # https://gitter.im/
 gitter:
-  enable: true
+  enable: false
   room: sakurarealm-dev/community
 
 # crisp
@@ -834,7 +834,7 @@ note:
 pjax:
   enable: true
   exclude:
-    # - xxxx
+     - /
     # - xxxx
 
 # Inject the css and script (aplayer/meting)
