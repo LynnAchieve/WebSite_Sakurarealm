@@ -49,7 +49,7 @@ copy:
 # formal:
 #   icon: link || the description
 social:
-  # fab fa-github: https://github.com/xxxxx || Github
+   fa-brands fa-bilibili: https://space.bilibili.com/4194287 || Bilibili
   # fas fa-envelope: mailto:xxxxxx@gmail.com || Email
 
 # search (搜索)
@@ -690,6 +690,7 @@ aside:
       icon: fas fa-solid fa-download
       text: 客户端下载
       link: /
+
   card_announcement:
     enable: false
     content: This is my Blog
@@ -832,7 +833,7 @@ note:
 # It may contain bugs and unstable, give feedback when you find the bugs.
 # https://github.com/MoOx/pjax
 pjax:
-  enable: true
+  enable: false
   exclude:
      - /
     # - xxxx
@@ -997,7 +998,7 @@ CDN:
 swiper:
   enable: true # 开关
   priority: 5 #过滤器优先权
-  enable_page: all # 应用页面
+  enable_page: / # 应用页面
   timemode: date #date/updated
   layout: # 挂载容器类型
     type: id
