@@ -3,15 +3,16 @@
 # --------------------------------------
 
 menu:
-   主页: / || fas fa-home
-   功能|| fas fa-list:
-      网页地图: / || fas fa-solid fa-map
-      引导手册: https://www.yuque.com/sakurarealm/yindao || fas fa-solid fa-book
-   链接|| fas fa-link:
-      QQ频道: https://sharelg6.ml/s2bfdB || fas fa-brands fa-qq
-      语雀wiki: https://www.yuque.com/sakurarealm || fas fa-brands fa-wikipedia-w
-   加入绘境: https://oasis-auth.sakura-realm.ink/ || fa-solid fa-right-to-bracket         
-   用户中心: https://oasis-auth.sakura-realm.ink/ || fas fa-solid fa-user
+   语雀主页: https://www.yuque.com/sakurarealm || fas fa-home
+#   功能|| fas fa-list:
+#      网页地图: / || fas fa-solid fa-map
+#      引导手册: https://www.yuque.com/sakurarealm/yindao || fas fa-solid fa-book
+   资料|| fas fa-link:
+      绘境百科: https://www.yuque.com/sakurarealm || fas fa-brands fa-wikipedia-w
+      共建社区: https://www.yuque.com/sakurarealm/wiki/xgh7wr || fas fa-link
+      大图书馆: https://www.yuque.com/sakurarealm/ra98ue || fas fa-solid fa-book
+   加入绘境: https://www.yuque.com/sakurarealm/yindao || fa-solid fa-right-to-bracket         
+#   用户中心: https://oasis-auth.sakura-realm.ink/ || fas fa-solid fa-user
 
   # Archives: /archives/ || fas fa-archive
   # Tags: /tags/ || fas fa-tags

@@ -1,6 +1,9 @@
+// v3.4.0+ 新增了一个判断
 if hexo-config('css_prefix')
   @import 'nib'
-
+// v3.0.0-v3.3.0 没有判断
+//@import 'nib'
+@import url(hexo-config('CDN.swiper_css'))
 @import '_third-party/normalize.min.css'
 // project
 @import 'var'
